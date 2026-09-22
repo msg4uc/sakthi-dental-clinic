@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Sakthi Dental Clinic Hosur</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Navigation -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/SDC Logo.png" alt="Sakthi Dental Clinic Hosur" class="hero-img">
+      </a>
+
+      <nav class="nav-menu" id="primary-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="treatments.html" class="nav-link">Treatments</a>
+        <a href="faq.html" class="nav-link">FAQs</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="contact.html" class="btn btn-primary nav-mobile-btn">Fix an Appointment</a>
+      </nav>
+
+      <a href="contact.html" class="btn btn-primary header-desktop-btn">Fix an Appointment</a>
+      <button class="hamburger" id="nav-toggle" aria-label="Toggle navigation menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Main Contact & Appointment Section -->
+  <main class="section-padding">
+    <div class="container">
+      <div class="section-title">
+        <span class="badge">Visit & Connect</span>
+        <h2>Contact Sakthi Dental Clinic</h2>
+        <p>Our team is available to assist you with appointments, questions, and emergency support</p>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Appointment Request Form -->
+        <div class="contact-box">
+          <h3 style="margin-bottom: 1.5rem; color: var(--text-main);">We would love to hear from you</h3>
+          
+          <form id="appointment-form" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" placeholder="Enter your full name" autocomplete="name" required>
+              <span class="error-text" id="name-error">Please enter your name</span>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your 10-digit mobile number" autocomplete="tel" required>
+              <span class="error-text" id="phone-error">Please enter a valid phone number</span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="example@domain.com" autocomplete="email">
+            </div>
+
+            <div class="form-group">
+              <label for="date">Preferred Date *</label>
+              <input type="date" id="date" name="date" required>
+              <span class="error-text" id="date-error">Please pick a date for your visit</span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message / Treatment Details</label>
+              <textarea id="message" name="message" rows="4" placeholder="Briefly describe your dental issue or preferred consultation topic"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Submit Appointment Request</button>
+            <div id="form-message" style="margin-top: 1.25rem; font-weight: 600; text-align: center; min-height: 1.5rem;"></div>
+          </form>
+        </div>
+
+        <!-- Clinic Location & Contact Details -->
+        <aside class="contact-box" style="background-color: #f8fafc;">
+          <h3 style="margin-bottom: 1.5rem; color: var(--text-main);">Reach us</h3>
+          
+          <ul class="contact-detail-list">
+            <!-- Physical Location -->
+            <li>
+              <span class="icon" style="color: var(--primary);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Address:</strong>
+                <p>B2/8, SBM Layout, Anthivadi, Hosur, Tamil Nadu 635109, India</p>
+              </div>
+            </li>
+
+            <!-- Email Inquiries -->
+            <li>
+              <span class="icon" style="color: var(--primary);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"/>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Email:</strong>
+                <p><a href="mailto:info@sakthidentalclinic.in" style="color: var(--primary);">info@sakthidentalclinic.in</a></p>
+              </div>
+            </li>
+
+            <!-- Phone Helplines -->
+            <li>
+              <span class="icon" style="color: var(--primary);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Phone:</strong>
+                <p>
+                  <a href="tel:+919862890897">+91 9862890897</a> / 
+                  <a href="tel:+919363298118">+91 9363298118</a>
+                </p>
+              </div>
+            </li>
+
+            <!-- Clinic Working Hours -->
+            <li>
+              <span class="icon" style="color: var(--primary);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Timings:</strong>
+                <p>Sunday to Saturday: 9:00 AM – 7:00 PM</p>
+              </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>Sakthi Dental Clinic</h3>
+        <p>Specialized dental services tailored for women, children, and families with gentle, personalized care in Hosur.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="treatments.html">Treatments</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Key Treatments</h4>
+        <ul>
+          <li><a href="treatments.html">Teeth Cleaning & Scaling</a></li>
+          <li><a href="treatments.html">Orthodontic Braces</a></li>
+          <li><a href="treatments.html">Dental Implants</a></li>
+          <li><a href="treatments.html">Pediatric Dentistry</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit Us</h4>
+        <p>B2/8, SBM Layout, Anthivadi, Hosur, Tamil Nadu 635109, India</p>
+        <p style="margin-top: 0.5rem;">
+          <a href="tel:+919862890897">+91 9862890897</a> / 
+          <a href="tel:+919363298118">+91 9363298118</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sakthi Dental Clinic. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
